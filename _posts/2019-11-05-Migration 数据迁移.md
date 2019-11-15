@@ -21,7 +21,7 @@ php artisan migrate
 php artisan migrate:rollback --step=1  //回滚一步
 ```
 
-创建数据哭
+创建数据库
 
 ```
 php artisan  make:migration  create_表名_table --create=表名
@@ -33,7 +33,7 @@ php artisan  make:migration  create_表名_table --create=表名
 php artisan migrate:reset 
 ```
 
-修改、刷新表字段（未上线） ，上线再刷新 数据被清空
+修改、刷新表字段（未上线） ，如果上线再刷新 数据被清空
 
 ```
 php artisan migrate:refresh

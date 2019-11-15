@@ -1,4 +1,4 @@
-#  resource 路由和 resource Gate 结合在一起进行权限判断更新时间
+#  resource 路由和 resource Gate 结合在一起进行权限判断
 
 为resource路由进行路由权限的判断
 
